@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+}
+
+body {
+    min-height: 100vh;
+    background-color: rgb(184, 176, 176);
+}
+
+img {
+    height: 70px;
+    padding: auto;
+}
+
+.header {
+    background: linear-gradient(to right,
+            #fcfcfc 10%,
+            #f1808f 50.66%,
+            #fe0202 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.redes_sociais {
+    margin-right: 5px;
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
+
+.navbar {
+    background: transparent
+}
+
+hr {
+    border: none;
+    height: 1.5px;
+    background-color: black;
+}
+
+.navbar_ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.navbar_li {
+    list-style: none;
+}
+
+.navbar_li a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.cabecalho {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo_cabecalho {}
+
+.subtitulo_cabecalho {}
+
+.cards {
+    text-align: center;
+    padding: 15px;
+}
+
+.cards_videos h1,
+h4 {
+    text-align: left;
+    padding: 10px;
+}
+
+.cards_videos_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    object-fit: cover;
+}
+
+.cards_videos_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    object-fit: cover;
+}
+
+.cards_videos a {}
+
+.cards_videos video {
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+}
