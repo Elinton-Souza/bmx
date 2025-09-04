@@ -17,6 +17,7 @@
 - **Organização**: Separação dos arquivos em pastas (`css`, `img`, etc.) para melhor organização.
 - **Vídeos**: Inclusão de vídeos dos campeonatos diretamente na página inicial.
 - **Links Navegáveis**: Menu de navegação para fácil acesso
+  .
 
 ## versão 2
 
